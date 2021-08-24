@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=WindSong&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(187, 157, 157) ;
+}
+.body
+{
+    color:rgb(187, 157, 157);
+}
+.header 
+{
+    height: fit-content;
+    background-color: rgb(187, 157, 157);
+    box-shadow: 0 5px 10px #efefef;
+    position: sticky;
+
+}
+
+.navbar-style
+{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+    margin: 4px;
+}
+.logo 
+{
+    height: 80px;
+    padding: 1px 5px;
+    position: sticky;
+
+}
+.icon-bar
+{
+    background-color: rgb(170, 47, 47);
+}
+li a 
+{
+    color: black;
+ 
+}
+.big-text
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 62px;
+    margin: 20px 0;
+    color: rgb(87, 39, 4);
+    text-shadow: 1rem black;
+    text-decoration: solid;
+    text-align: justify;
+}
+.text
+{
+    color: brown;
+}
+.col-sm-6 .small-text
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(68, 67, 6);
+}
+.col-sm-6 .para
+{
+    font-family: sans-serif;
+    color: rgb(95, 14, 14);
+    font-size: large;
+    text-transform: capitalize;
+    text-decoration: solid;
+}
+.col-sm-6 
+{
+    display: grid;
+}
+.col-sm-6 p
+{
+    font-family: sans-serif;
+    color: rgb(73, 10, 10);
+    font-size: large;
+    text-align: left;
+    position: relative;
+    text-transform: capitalize;
+    text-decoration: solid;
+}
+.col-sm-6 img
+{
+    height: 450px;
+    width: 500px;
+    display: grid;
+
+}
+.a .btn
+{
+   padding: 20px;
+   padding-right: 20px;
+}
+.a .btn-first
+{
+    background-color: rgb(57, 102, 31);
+    color: #efefef;
+}
+.a .btn:hover
+{
+    background:black;
+    border: #999;
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+.footer-content
+{
+    height: fit-content;
+    background-color:rgb(187, 157, 157);
+    top: 0;
+}
+.footer-content h2
+{
+    color: rgb(47, 66, 8);
+    word-spacing: 0.5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+.footer-list1
+{
+    list-style: none;
+    text-transform: capitalize;
+    font-style: italic;
+    color: rgb(97, 19, 97);
+    text-align: center;
+}
+.footer-list2
+{
+    list-style: none;
+    text-transform: capitalize;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px;
+
+}
+
+
+.center
+{
+    margin-left: 10px;
+    text-align: center;
+    display: flex;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-compatiable" content="ie=edge">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<title>Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(187, 157, 157);
+}
+.body
+{
+    color:rgb(187, 157, 157);
+}
+.header .navbar-style .container
+{
+    height: fit-content;
+    background-color: rgb(187, 157, 157);
+    box-shadow: 0 5px 10px #efefef;
+    position: sticky;
+
+}
+
+.navbar-style
+{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+    margin: 4px;
+}
+.logo 
+{
+    height: 80px;
+    padding: 1px 5px;
+
+}
+.icon-bar
+{
+    background-color: rgb(170, 47, 47);
+}
+li a 
+{
+    color: black;
+ 
+}
+
+:root {
+    font-family: 'MonteCarlo', cursive;
+}
+html {
+    font-family: sans-serif;
+}
+.header .main-header
+ {
+    height: 50vh;
+    width: 50%;
+    background-color:rgb(187, 157, 157);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    user-select: none;
+}
+
+.main-header {
+    text-align: center;
+    transition: 0.5s;
+}
+.main-header:hover {
+     box-shadow: 10px 10px 72px 0px rgba(0,0,0,0.75);
+     -webkit-box-shadow: 10px 10px 72px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: 10px 10px 72px 0px rgba(0,0,0,0.75);
+}
+
+.main-header h1 {
+    font-size: 5rem;
+    font-family:'MonteCarlo',cursive;
+    text-transform: uppercase;
+    text-size-adjust: 20px;
+    text-decoration-line: underline;
+    text-decoration: solid;
+    color:black;
+}
+.main-header hr {
+    width: 70%;
+    margin: auto;
+    padding: 2px;
+    background: black;
+    border: none;
+}
+
+.main-header h3 {
+    margin: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+.main-header input {
+    width: 70%;
+    padding: 1rem;
+    margin: 10px 0px;
+    border: none;
+    text-emphasis-color: #000;
+    border-bottom: 2px  solid black;
+    font-size: 1.5rem;
+    background: transparent;
+    outline: none;
+}
+
+.main-header button {
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    background: rgb(245, 214, 214);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    outline: none;
+    margin: 20px;
+}
+.main-header button:hover {
+    transform: scale(1.2);
+}
+    </style>
+<header>
+    <nav class="navbar navbar-style">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            <a href="#"><img class="logo" src="img1.jpeg"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="micon">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href=""><span class="glyphicon glyphicon-header"></span> Home </a></li>
+                <li><a href=""><span class="glyphicon glyphicon-info-sign"></span> About us </a></li>
+                <li><a href=""><span class="glyphicon glyphicon-cutlery"></span> Menu </a></li>
+                <li><a href=""><span class="glyphicon glyphicon-earphone"></span> Contact </a></li>
+                <li><a href=""><span class="glyphicon glyphicon-log-in"></span> Login/Sign up </a></li>
+            </ul>
+        </div>
+    </nav>
+<div class="main-header">
+    <h1>Login</h1>
+    <hr />
+    <h3>THE CAKE COTTAGE</h3>
+    <P><input type ="text" placeholder ="Username"></P>
+    <P><input type ="password" placeholder ="password"></P>
+    <p><button> Continue</button></p>
+    <p><button> Sign up</button></p>
+</div>
+</header>
+</body>
+</html>
